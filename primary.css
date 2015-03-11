@@ -1,0 +1,414 @@
+
+html,body {
+	height: 100%;
+	}
+
+body {
+	background: #F0FAFE;
+	font-family: 'Lato',sans-serif;
+	font-size: 14px;
+	font-weight: 400px;
+	color: #4E4D4D;
+	margin: 0 auto;
+	}
+
+
+h1, h2, h3{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 1%;
+	text-transform: uppercase;
+	text-align: center;
+	}
+
+h1{
+	font-size: 48px;
+	text-decoration: none;
+	font-family: 'Lobster', sans-serif;
+
+}
+
+h2{
+	font-size: 30px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+}
+
+h3{
+	font-size: 22px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+}
+h5{
+	font-size: 12px;
+}
+ol, ul{
+	padding: 0;
+	list-style: none;
+	}
+/** BORDER BEGINS */
+.big_border{
+	border-style: solid;
+	border-width: 80px;
+	border-bottom-width: 32px;
+	border-top-width:18px;
+	color: #0D47A1; 
+	}
+
+.big_border_1{
+	border-style: solid;
+	border-width: 80px;
+	border-bottom-width: 32px;
+	border-top-width:18px;
+	color: #1565C0; 
+	}
+
+.big_border_2{
+	border-style: solid;
+	border-width: 80px;
+	border-bottom-width: 32px;
+	border-top-width:18px;
+	color: #1976D2; 
+	}	
+
+.big_border_3{
+	border-style: solid;
+	border-width: 80px;
+	border-bottom-width: 32px;
+	border-top-width:18px;
+	color: #2196F3; 
+	}
+
+.big_border_4{
+	border-style: solid;
+	border-width: 80px;
+	border-bottom-width: 32px;
+	border-top-width:18px;
+	color: #03A9F4; 
+	}
+
+.big_border_5{
+	border-style: solid;
+	border-width: 80px;
+	border-bottom-width: 32px;
+	border-top-width:18px;
+	color: #47c4fd; 
+}
+
+/** BORDER ENDS */
+
+
+.container{
+	width: auto;
+	margin: 0px auto;
+	}
+
+#header {
+	background: #F0FAFE;
+	width: auto;
+	margin: 0px auto;
+	height: 280px;
+	}
+
+
+#banner_img{
+	max-width: 1200px;
+	max-height: 700px;
+}
+
+#box_shadow{
+	box-shadow: 10px 10px 5px #0C0C0C;
+}
+
+#logo{
+	height: auto;
+	float: left;
+	width: auto;
+	height: auto;
+	margin: 0px auto;
+	padding: 24px;
+	overflow: auto;
+	}
+
+
+#nav{
+	margin: 0;
+	font-family: 'Raleway';
+	font-size: 17pt;
+	overflow: auto;
+	text-align:center;
+	}
+
+#nav ul	{
+	padding-top: 25px;
+	list-style-type: none;
+    margin: 0 auto;
+    overflow: auto;
+	}
+
+#nav ul li{	
+	text-align: center;
+	background: #F0FAFE;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline;
+	}
+
+#nav ul li a{
+	display:inline-block;
+	text-decoration: none;
+	margin: 8px;
+	color: #000000;
+	padding: 25px;
+	}
+
+#nav ul li a:hover, nav ul li.active a{
+	background-color: #3F51B5;
+	box-shadow: 10px 10px 5px #0C0C0C;
+	}
+
+
+#wrapper_1{
+	background: #F0FAFE;
+	width: auto;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 25px;
+	color: #000000;
+	}
+
+.styled-button-5 {
+	position: inherit;
+	background: #F0FAFE;
+	color:#000;
+	font-family:'Lato',sans-serif;
+	font-size:18px;
+	line-height:50px;
+	cursor: pointer;
+	border:2px solid black;
+	width:217px;
+	height:60px;
+	overflow: auto;
+	display: none;
+}     
+
+.styled-button-5:hover{
+	background-color: #FFF;
+	box-shadow: 10px 10px 5px #0C0C0C;
+}
+
+#wrapper_1 img{
+	max-width: 90%;
+	min-width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 25px;
+	padding-top: 40px;
+	}
+
+#wrapper_1 h2{
+	font-size: 40px;
+
+}	
+
+#wrapper_2{
+	background: #F0FAFE;
+	width: auto;
+	margin: 0px auto;
+	text-align: left;
+	color: #000000;
+	overflow: auto;
+	box-shadow: 10px 10px 5px #0C0C0C;
+	}
+
+#about h1{
+	text-align: center;
+}
+
+#about img{
+	max-width: 250px;
+	margin-top: 135px;
+	margin-right: 2%;
+	margin-left: 2%;
+	box-shadow: 0 0 10px 0px rgba(12, 3, 25, 0.8);
+	float: left;
+
+	overflow: auto;
+	}
+
+#about p{
+	padding: 40px;
+	padding-bottom: 80px;
+	text-align: justify;
+	}
+
+#wrapper_3{
+	width: auto;
+	margin: 0 auto;
+	text-align: center;
+	background: #F0FAFE;
+	overflow: auto;
+	color: black;
+	box-shadow: 10px 10px 5px #0C0C0C;
+	}
+
+#wrapper_3_color{
+	background: #f05031;
+	overflow: auto;
+}
+
+.skills_headline{
+	width: auto;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	overflow: auto;
+	}
+
+.skills	{ 
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 35px;	
+	float: none;
+	display:inline-block;
+	width: 32%;
+	margin-bottom: 50px;
+	min-width:150px;
+	overflow: auto;
+	}
+
+.skills p{
+	padding: 10px;
+	text-align: justify;
+}
+
+#wrapper_4{
+	width: auto;
+	text-align: center;
+	color: #000000;
+	overflow: auto;
+	box-shadow: 10px 10px 5px #0C0C0C;
+	background: #F0FAFE;
+	}
+
+#wrapper_4_color{
+	background: #F0FAFE;
+}
+
+#interests {
+	display: inline-block;
+	padding: 4%;
+	width: 20%;
+	height: auto;
+	min-width: 90px;
+	overflow: auto;
+	margin: 0;
+
+	}
+#interests p{text-align: justify;}
+
+.icon{
+	max-height: 65px;
+	width: 65px;
+	display: inline-block;
+	font-family: sans-serif;
+	overflow: auto;
+	}
+
+#contact_form{
+	text-align: center;
+	padding-top: 60px;
+	box-shadow: 10px 10px 5px #0C0C0C;
+	color: #000;
+}
+
+
+#contact{
+	background: #F0FAFE;
+	width: auto;
+	margin: 0px auto;
+	font-size: 25px;
+	height: auto;
+	color: #000000;
+	overflow: auto;
+	box-shadow: 10px 10px 5px #0C0C0C;
+	}
+
+#contact h2 {
+	text-align: center;	
+	font-size: 34px;	
+	}	
+
+#contact ul{
+    list-style-type:none;
+    text-align: center;
+    margin: 0 auto;
+    width:80%;
+	}
+
+#social_icons {
+	margin: 0 auto;
+	width: auto;
+	}
+
+#social_icons{
+	list-style-type: none;
+	}
+
+#social_icons li{
+	width:auto;
+	height: auto;
+	margin: 0px auto;
+	padding: 1%;
+	display: inline-block;	
+	}
+
+#disclaimer{
+	text-align: center;	
+	font-size: 8px;
+	background: #F0FAFE;
+	overflow: auto;
+	color: black;
+	}
+
+#copyright {
+	background: #F0FAFE;
+	width: auto;
+	margin: 0 auto;
+	text-align: center;
+	color: #000000;	
+	}
+
+#copyright p{
+	font-size: 10px;
+	margin: auto;
+	text-align: center;
+	max-width: 800px;
+	font-weight: bold;
+}	
+/** LIGHT BOX STUFFS */
+
+.lightbox {
+	display: none;
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightbox img {
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 5%;
+}
+
+.lightbox:target {
+	outline: none;
+	display: block;
+}
+
+/** LIGHT BOX ENDS */
+
