@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,7 +23,7 @@
 	}
 
 	#nav ul li {
-		background-color: #F0F4F9;
+		background-color: #F0FAFE;
 		display:block;
 	}
 
@@ -39,8 +41,8 @@
  
 
 	#about img{
-		max-width: 150px;
-		margin: 50px 50px 50px 50px;
+		max-width: 40%;
+		margin: 30px 30px 30px 65px;
 		height: auto;
 	}
 
@@ -65,24 +67,26 @@
 		display: inline-block;
 		padding: 25px;
 		height: auto;
-		min-width: 130px;
+		width: auto;
 		overflow: auto;
 		margin: 0;
-	}
-	.big_border_4{
-		display:none;
 	}
 
 	#contact_form{
 		display:none;
 	}
-	
+
+	.big_border_4{
+		display: none;
+	}
+
+
 	#social_icons li img{
 		max-width:36px;
 		max-height: auto;
 		margin: 0px auto;
 		padding: 1%;
-		display: inline-block;	
+		display: inline-block;		
 	}
 
 	#copyright p{
@@ -109,7 +113,7 @@
 	h1{
 		font-size: 38px;
 		text-decoration: none;
-		font-family: 'Oswald', sans-serif;
+		font-family: 'oswald', sans-serif;
 	}
 
 	h2{
@@ -137,18 +141,21 @@
 	}
 </style>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
 </head>
 <body>
 <div class="big_border">
 	<div id="box_shadow">	
 		<div id="background_img">
-			<div id="header">
-				<div id="logo" class="container">
-					<img src="./icons/mikeKaplan1.png">
-				</div>	
+			
+			<div id="wrapper_1" class="container">			
+				<span id="banner_txt">
+					<h1> Hi, I'm Mike Kaplan.</h1>										
+				</span>		
+			</div>
 
+			<div id="header">
 				<div id="nav" class="container" style="float:center;">
-					
 					<!-- style the menu here -->
 					<a id="menu" onclick="reveal()" style="display:none;cursor:pointer;"><img src="./icons/menu.png"></a>
 					
@@ -156,9 +163,9 @@
 						<li class='active'><a href="#about">Who am I?</a></li>
 						<li><a href="#skills">What do I know?</a></li>
 						<li><a href="#interests">What do I do?</a></li>	
-					
 					</ul>
-				</div>		
+				</div>
+ 
 			</div> 
 			
 			<script>
@@ -173,16 +180,6 @@
 				isReveal = !isReveal;
 			}
 			</script>
-
-			<div id="wrapper_1" class="container">			
-				<span id="banner_txt">
-					<h1> Hi, I'm Mike Kaplan.</h1>										
-				</span>	
-				
-				<span id="banner_img">
-					<img src="./icons/bannerimg.jpg">
-				</span>		
-			</div>
 		</div>
 	</div>		
 </div>
@@ -194,16 +191,16 @@
 			<a name="about"><h1>Who am I?</h1></a>
 			
 			<p> 
-				As you may know by now, my name is Mike Kaplan and this is my website. 
+				As you may know by now, my name is Mike Kaplan and this is my website.  
 				<br>
 				<br>
-				After graduating from high school in Reston, VA I trained in audio engineering at Omega Studios in Rockville, Maryland. As part of graduating from Omega I became Pro-Tools certified, although my real interest was live sound. I moved down to Richmond in 2010 and worked at Sound of Music Studios for about a year before deciding that if I wanted to open my own studio, and to do so on my own terms, would want to do so when I had the money to buy my equipment without worrying making a return on the gear. With that in mind I enrolled at J.Sargeant Reynolds where I graduated in 2014, cum laude, with an Associates Degree in Business Administration. From there I applied, and was accepted, to Virginia Commonwealth University's Business School for Economics. I chose to go to VCU for a few reasons, but one of the biggest is that I absolutely love Richmond, VA. 
+				My story is pretty straightforward. After graduating from high school in Reston, VA I trained in audio engineering at Omega Studios in Rockville, Maryland. As part of graduating from Omega Studios I became Pro-Tools certified. I moved down to Richmond in 2010 and worked at Sound of Music Studios for about a year before deciding that if I wanted to open my own studio, on my own terms, I would need to do so when I could buy the equipment without worrying making a return on the gear. With that in mind I enrolled at J.Sargeant Reynolds where I graduated in 2014, cum laude, with an Associates Degree in Business Administration. From there I applied, and was accepted to Virginia Commonwealth University's Business School for Economics. I chose to go to VCU for a few reasons, but one of the biggest is that I absolutely love Richmond, VA. 
 				<br>
 				<br>
-				My humble beginnings into Digital Marketing started in December 2013 with a sarcastic comment on reddit about 'how easy it is to do marketing for a restaurant on social media'. I guess it was a pretty decent comment, because I was contacted by an /r/rva user who was looking for someone to help with his business. I applied, interviewed, and got the job. Over the course of the next year I learned about and ran campaigns for SEO, social media management and automation, digital analytics, PPC, content marketing, copywriting, and most recently - coding. This website is my first finished project that I have ever coded. It still needs some work, but I still have plenty to learn. 
+				My start in Digital Marketing began in December 2013 with a sarcastic comment on reddit about 'how easy it is marketing a restaurant on social media'. I guess it was a pretty decent comment because I was contacted by an /r/rva user who was looking for someone to run digital marketing for his company. I applied, interviewed, and got the job. Over the course of the 2014 I learned about and assisted with campaigns involving SEO, Social Media, Digital Analytics, PPC, Content Marketing, Copywriting, and most recently - coding. This website is my first finished project that I have ever coded. It is definitely still a work in progress, but I still have plenty to learn. 
 				<br>
 				<br>
-				When I'm not studying, working, or learning code, I spend a fair amount of time reading the news. It's a hobby I didn't expect to develop, but one that I've come to cherish. Whether it's news about business, politics, technology, or science, I see it all as being pertinent and applicable to my life. I'm also an avid Starcraft fan, a fisher, skier, and trivia fan.
+				When I'm not studying, working, or learning to code, I spend a fair amount of time reading the news. It's a hobby I didn't expect to develop, but one that I've come to cherish. Whether it's news about business, politics, technology, or science, I see it all as being pertinent and applicable. I'm also an avid Starcraft fan, a fisher, skier, and trivia fan.
 			</p>	
 		
 		</span>
@@ -221,7 +218,7 @@
 			<div class="skills">
 		 		 	<img src="./icons/uni.png">
 					<h3>Economist-in-Training</h3>
-					<p class="byline">I am currently an Economics student at the Virginia Commonwealth University School of Business, on track to graduate in May 2016. Originally an audio engineer by trade, I gave up my microphones and cables to go back to school and learn the finer workings of quantitative analysis. As time goes by, I have become increasingly happy about my decision. </p>
+					<p>I am currently an Economics student at the Virginia Commonwealth University School of Business and on track to graduate in May 2016. Originally an audio engineer by trade, I gave up my microphones and cables to go back to school and learn the finer workings of quantitative analysis. As time goes by, I have become increasingly happy about my decision. </p>
 			</div>
 				
 			<div class="skills">
@@ -236,7 +233,7 @@
 
 			</div>		
 				<h3>Google Certified Digital Analyst</h3>
-				<p class="byline">On November 21, 2014 I absent-mindedly passed the Google Analytics certification exam with an 88%.  I had studied for a few days before taking it, but had originally intended on just going through to see what the questions would be like - I really didn't expect to pass, and was shocked to find out I did on my first take.  My next focus is the Adwords Exam to become a full Google Partner.</p>			
+				<p>On November 21, 2014 I absent-mindedly passed the Google Analytics certification exam with an 88%.  I had studied for a few days before taking it, but had originally intended on just going through to see what the questions would be like - I really didn't expect to pass, and was shocked to find out I did on my first take.  My next focus is the Adwords Exam to become a full Google Partner.</p>			
 			 </div>
 			
 			<div class="skills">
@@ -244,8 +241,8 @@
 		 		 <img src="./icons/code.png">
 
 				<h3>Programmer-in-Progress</h3>
-				<p class="byline">
-				I never really thought that I would have an interest in how to code. I don't know why, but it never used to interest me. However, I can happily say that one of my proudest improvements in life thus far is that I made a full 180 in my way of thought. I went from willfully disinterested to writing and hosting my own website.  My next step is to focus on JavaScript, JQuery, SQL, Python, and R. 
+				<p>
+				I never really thought that I would want to learn how to code. I don't know why, but it never used to interest me. However, I can happily say that one of my proudest improvements in life thus far is that I made a full 180 in my way of thought. I went from willfully disinterested to writing and hosting my own website.  My next step is to focus on JavaScript, JQuery, SQL, Python, and R. 
 				</p>
 			</div>
 	</div>	
@@ -254,13 +251,12 @@
 
 <div class="big_border_3">
 	<div id="wrapper_4" class="container">
-		<h1><a name="interests">What do I do?</a></h1>
+		<h1><a name="interest">What do I do?</a></h1>
 			<div id="interests">
 				<img src="./icons/SEO_tags.png" class="icon">
 				<h3>Search Engine Optimization</h3>
 				<p>
-					I've always had a love for puzzles I just didn't ever think that there would be a job where I could get paid to solve them. I've been fortunate to be able to focus on cracking Google's algorithm, and I've really come to love this game. I think I've gotten pretty good at it, too. At least, according to Bill Slawski I'm an expert, for what that's worth.
- .   
+					I've always had a love for puzzles I just didn't ever think that there would be a job where I could get paid to solve them. I've been fortunate to be able to focus on cracking Google's algorithm, and I've really come to love this game. I think I've gotten pretty good at it, too. At least, according to <a href="http://gofishdigital.com/hardest-seo-quiz-youll-ever-take/">Bill Slawski</a> I'm an expert, for what that's worth.
 				</p> 
 			</div>	
 
@@ -269,7 +265,6 @@
 				<h3>Email Marketing</h3>
 				<p>
 					At its core, Email Marketing is about putting words in the right order so that people will read your message and respond to your call to action. While I enjoy writing engaging messages, I am more interested in the remaining aspects of a campaign. From building a list, to measuring success, and everything in between, there is a lot that captures my attention.
-  
 				</p> 
 			</div>
 
@@ -293,15 +288,15 @@
 				<img src="./icons/content1.png" class="icon">
 				<h3>Content & Copy Writing</h3>
 				<p>
-					Good copy is the difference between a lead and a sale. It's what cements our trust and guides our purchases.  Good content drives our interests, and shares our stories. Both dictate success online solely by how well a story is told, and how well it captures our collective attention. Writing brilliant copy or content isn't easy, but it's a skill that I've been trying to improve.
+					Good copy is the difference between a lead and a sale. It's what cements our trust and guides our purchases.  Good content drives our interests, and shares our stories. Both dictate success online solely by how well a story is told, and how well it captures our collective attention. Writing brilliant copy or content isn't easy, but it's a skill that I've been trying to develop.
 				</p> 
 			</div>	
 
 			<div id="interests">
 				<img src="./icons/marketing_strategy.png" class="icon">
-				<h3>Marketing Strategy</h3>
+				<h3>Marketing Research & Strategy</h3>
 				<p>
-					Getting your message heard online can be tough. It can be even tougher getting it heard by the right audience, but developing an engagement strategy to get your website in front of the right eyes has become one of my favorite things to do. Be it SEO, Social Media, or traffic leaking, there is a perfect strategy for every website - it's just a matter of finding it.  
+					Getting your message heard online can be tough. It can be even tougher getting it heard by the right audience, but developing an engagement strategy to get your website in front of the right eyes has become one of my favorite things to do. Be it SEO, Social Media, or traffic leaking, there is a perfect strategy for every website - it's just a matter of finding it. 
 				</p> 
 			</div>
 		</div>	
@@ -320,6 +315,7 @@
 			}(document, "script"));
 			</script>	
 	</div>
+
 
 </div>
 
@@ -347,7 +343,7 @@
 		 			</li>
 	
 		 			<li>
-		 				<a href="www.linkedin.com/in/themikekaplan">
+		 				<a href="http://www.linkedin.com/in/themikekaplan">
 		 					<img src="./icons/linkedin.png"/>
 		 				</a>
 		 			</li>		
